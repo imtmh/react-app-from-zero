@@ -1,19 +1,14 @@
 var rootTag = document.getElementById("root");
 
-class OurFirstClassComponent extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello React!</h1>
-      </div>
-    );
-  }
+function SimpleReactComponent() {
+  return (
+    <div>
+      Hello from <b>Thiru</b>!
+    </div>
+  );
 }
 
-ReactDOM.render(<OurFirstClassComponent />, rootTag);
+ReactDOM.render(<SimpleReactComponent />, rootTag);
 
-/**
- *
- *
- * OOPS concepts >> inheritance
- */
+// console.log("Hello from app!");
+// document.getElementById("header").innerHTML = "Hello react!";
